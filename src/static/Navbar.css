@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("Background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+.Navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures it's above other elements */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: fit-content;
+   backdrop-filter: blur(10px);
+}
+
+.Logo-link {
+  text-decoration: none;
+  color: #66fcf1;
+}
+.Logo-link h1 {
+  margin-left: 5%;
+}
+.nav-{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: #45a29e;
+  float: left;
+  list-style-type: none;
+  font-size: large;
+  margin: 0px 10px;
+  padding: 10px 8%;
+  text-align: center;
+  
+ 
+ 
+}
+
+.nav-link:hover {
+  background-color: #66fcf1;
+  color: black;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.SignUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-btn {
+  padding: 10px 20px;
+  background-color: #00ffc8;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-btn:hover {
+  background-color: #0fffe3;
+  transform: scale(1.05);
+}
+
+
