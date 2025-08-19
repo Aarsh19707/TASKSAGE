@@ -248,13 +248,13 @@ const Home = () => {
             </h2>
           </div>
           <div className="action-buttons">
-            <Link to="/Notes" >
+            <Link to="/Task" >
             <button className="action-btn primary">
               <Target size={18} />
               Create Task
             </button>
             </Link>
-          <Link to="/Task" >
+          <Link to="/Notes" >
           <button className="action-btn secondary" >
               <FileText size={18} />
               Write Note
